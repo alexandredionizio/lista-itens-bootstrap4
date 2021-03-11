@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Node Git Bootstrap</title>
-    <h1>Exemplo de bootstrap com Node.js</h1>
-</head>
-<body>
+    <head>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Node Git Bootstrap</title>
+    </head>
+    <body>
+        <h1>Containers breakpoints</h1>
+        <div class="container-sm">100% largura até small breakpoint</div>
+        <div class="container-md">100% largura até medium breakpoint</div>
+        <div class="container-lg">100% wide until large breakpoint</div>
+        <div class="container-xl">100% wide until extra large breakpoint</div>
+        
+    <h1>Alerts</h1>
+    <div class="alert alert-primary" role="alert">Alert Primary</div>
     
+    <div class="alert alert-secondary">Alert Secondary</div>
+    <div class="alert alert-success">Alert Success</div>
+    <div class="alert alert-danger">
+        Alert Danger
+    </div>
+    <div class="alert alert-warning">
+        Alert Warning
+    </div>
+    <div class="alert alert-info" role="alert">
+        Alert Info
+    </div>
+    <div class="alert alert-light" role="alert">
+        Alert Light
+    </div>
+    <div class="alert alert-dark" role="alert">
+        Alert Dark
+    </div>
+
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Well done!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+        <hr>
+        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+    </div>
+
+    <div class="alert alert-warning">
+        <strong>José da Silva</strong> Você não possui perfil de acesso!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
